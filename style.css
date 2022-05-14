@@ -19,3 +19,11 @@ table {
   width: 95vw;
   height: 12vh;
 }
+
+#header-container {
+  width: 95vw;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
