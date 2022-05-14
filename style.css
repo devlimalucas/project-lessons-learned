@@ -7,3 +7,15 @@ body {
   top: 0;
 }
 
+td , th , tr {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 95vw;
+  height: 12vh;
+}
