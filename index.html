@@ -1,101 +1,126 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <div id="header-container">
-    <header id="cabecalho">
-      <h1 id="titulo">
-        O que eu aprendi na Trybe?
-      </h1>
-    </header>
-  </div>
-  <div>
-    <main>
-      <div id="nav-container">
-        <nav>
-          <div id="links-container">
-            <a class="list-link">Aprendizados na Trybe</a class="list-link">
-            <a class="list-link">Aprendizados almejados</a class="list-link">
-            <a class="list-link"> Um pouco sobre a experiência como aluno</a class="list-link">
-          </div>
-        </nav>
-      </div>
-      <div id="image-container">
+  <body>
+    <div id="header-container">
+      <header id="cabecalho">
+        <h1 id="titulo">O que eu aprendi na Trybe?</h1>
+      </header>
+    </div>
+    <div>
+      <main>
+        <div id="nav-container">
+          <nav>
+            <div id="links-container">
+              <a class="list-link" href="#aprendizados">Aprendizados na Trybe</a>
+              <a class="list-link" href="#almejados">Aprendizados almejados</a>
+              <a class="list-link" href="table-container"> Um pouco sobre a experiência como aluno</a>
+            </div>
+          </nav>
+        </div>
+        <div id="image-container">
+          <section>
+            <figure>
+              <img
+                id="image-tag"
+                src="foto-ln.jpeg"
+                alt="Foto de Lucas Lima"
+                title="Lucas Lima"
+              />
+            </figure>
+          </section>
+        </div>
+        <div id="aprendizados">
+          <section>
+            <h2>Aprendizados na Trybe:</h2>
+            <ol id="licoes_aprendidas">
+              <li>Unix, Bash & Shell;</li>
+              <li>
+                Executar comandos no terminal para navegar entre diretórios;
+              </li>
+              <li>
+                xecutar comandos no terminal para criar e manipular arquivos e
+                diretórios;
+              </li>
+              <li>Executar comandos no terminal para realizar buscas;</li>
+              <li>Git e Github;</li>
+              <li>Salvar pojetos no repositório Git local;</li>
+              <li>Contolar alterações e versões dos arquivos;</li>
+              <li>Enviar projetos para o repositório remoto do Github;</li>
+              <li>Introdução - HTML e CSS;</li>
+              <li>
+                Utiziliação da principais tags do HTML para estururar páginas;
+              </li>
+            </ol>
+          </section>
+        </div>
+        <div id="almejados">
         <section>
-          <figure>
-            <img id="image-tag" src="foto-ln.jpeg" alt="Foto de Lucas Lima"
-              title="Lucas Lima">
-          </figure>
+          <h2>Aprendizados almejados:</h2>
+          <ul id="licoes_a_aprender">
+            <li>JavaScript;</li>
+            <li>Aprender a aprender;</li>
+            <li>Comunicação;</li>
+            <li>Back-end;</li>
+            <li>Front-end;</li>
+            <li>Ciência da computação;</li>
+            <li>Banco de dados;</li>
+            <li>JavaScript ES6;</li>
+            <li>Lições sobre carreira;</li>
+            <li>Programação da vida real.</li>
+          </ul>
         </section>
       </div>
-      <section>
-        <h2>Aprendizados na Trybe:</h2>
-        <ol id="licoes_aprendidas">
-          <li>Unix, Bash & Shell;</li>
-          <li>Executar comandos no terminal para navegar entre diretórios;</li>
-          <li>xecutar comandos no terminal para criar e manipular arquivos e diretórios;</li>
-          <li>Executar comandos no terminal para realizar buscas;</li>
-          <li>Git e Github;</li>
-          <li>Salvar pojetos no repositório Git local;</li>
-          <li>Contolar alterações e versões dos arquivos;</li>
-          <li>Enviar projetos para o repositório remoto do Github;</li>
-          <li>Introdução - HTML e CSS;</li>
-          <li>Utiziliação da principais tags do HTML para estururar páginas;</li>
-        </ol>
-      </section>
-      <section>
-        <h2>Aprendizados almejados:</h2>
-        <ul id="licoes_a_aprender">
-          <li>JavaScript;</li>
-          <li>Aprender a aprender;</li>
-          <li>Comunicação;</li>
-          <li>Back-end;</li>
-          <li>Front-end;</li>
-          <li>Ciência da computação;</li>
-          <li>Banco de dados;</li>
-          <li>JavaScript ES6;</li>
-          <li>Lições sobre carreira;</li>
-          <li>Programação da vida real.</li>
-        </ul>
-      </section>
-      <div id="table-container">
-        <table id="table-tag">
-          <thead>
-            <th>Um pouco sobre meu aprendizado</th>
-            <th>Passagem sobre meu aprendizado</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <article class="lado-esquerdo">
-                  Trybe proporciona a todos os alunos um ambiente ideal para aprendermos online tudo sobre programação, até então, como ainda estou no inicio do curso, o meu aprendizado tem sido focado nos conteúdos básicos para o inicio da jornada que é se tornas uma pessoa desenvolvedora. Ao longo dessas primeiras semanas já vimos os princípios do uso do terminal, do Git e Github, do HTML, do CSS e, então, chegamos à tão sonhada linguagem de programação JavaScript.
-                </article>
-              </td>
-              <td>
-                <aside class="lado-direito">
-                  Durante o aprendizado das últimas semanas eu percebi que o principal para conseguir acompanhar os assuntos é aprender onde que sou mais forte e onde que sou mais fraco, rever as aulas e revisá-las é essencial.
-                </aside>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </main>
-  </div>
-  <footer id="rodape">
-    <h3>Lessons Learned</h3>
-    <p><a href="https://www.linkedin.com/in/lucas-roberto-490699174/" target="_blank">Lucas Lima (Abre uma nova
-        janela)</a>
-    </p>
-  </footer>
-</body>
-
+        <div id="table-container">
+          <table id="table-tag">
+            <thead>
+              <th>Um pouco sobre meu aprendizado</th>
+              <th>Passagem sobre meu aprendizado</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <article class="lado-esquerdo">
+                    Trybe proporciona a todos os alunos um ambiente ideal para
+                    aprendermos online tudo sobre programação, até então, como
+                    ainda estou no inicio do curso, o meu aprendizado tem sido
+                    focado nos conteúdos básicos para o inicio da jornada que é
+                    se tornas uma pessoa desenvolvedora. Ao longo dessas
+                    primeiras semanas já vimos os princípios do uso do terminal,
+                    do Git e Github, do HTML, do CSS e, então, chegamos à tão
+                    sonhada linguagem de programação JavaScript.
+                  </article>
+                </td>
+                <td>
+                  <aside class="lado-direito">
+                    Durante o aprendizado das últimas semanas eu percebi que o
+                    principal para conseguir acompanhar os assuntos é aprender
+                    onde que sou mais forte e onde que sou mais fraco, rever as
+                    aulas e revisá-las é essencial.
+                  </aside>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+    <footer id="rodape">
+      <h3>Lessons Learned</h3>
+      <p>
+        <a
+          href="https://www.linkedin.com/in/lucas-roberto-490699174/"
+          target="_blank"
+          >Lucas Lima (Abre uma nova janela)</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
