@@ -68,7 +68,7 @@ td , th , tr {
   margin: 5px;
 }
 
-#image-tag {
+#minha_foto {
   width: 50vh;
   border-radius: 50%;
   padding: 10px;
@@ -87,10 +87,10 @@ thead {
   background-color: rgb(44, 182, 126);
 }
 
-#aprendizados , #almejados{
+#aprendizados , #almejados {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   padding: 10px;
   margin: 5px;
@@ -101,7 +101,7 @@ thead {
   background-color: rgb(44, 182, 126);
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   padding: 10px;
   margin: 5px;
