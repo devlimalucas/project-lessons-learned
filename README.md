@@ -40,6 +40,10 @@ Este projeto foi criado com o propósito de testar e exercitar as habilidades de
 * HTML5;
 * CSS3.
 
+## :computer: Arquivos modificados/criados
+* index.html
+* styles.css
+
 ## :rocket: Rodando o projeto localmente
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
@@ -59,7 +63,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 <table>
   <tr>
     <td align="center">
-      <a href="http://github.com/tatialveso">
+      <a href="https://github.com/LucasLimaPE">
         <img src="https://avatars.githubusercontent.com/u/94488633?s=400&u=c0fc6e9a64565b85fc249c1b7a302c7b674ff785&v=4" width="100px;" alt="Foto de Lucas Lima no GitHub"/><br>
         <sub>
           <b>LucasLimaPE</b>
